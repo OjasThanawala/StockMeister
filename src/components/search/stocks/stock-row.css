@@ -1,0 +1,79 @@
+.stockmeister-stock-container {
+    display: flex;
+    justify-content: center;
+}
+
+.stockmeister-stock-row {
+    display: flex;
+    flex-direction: inherit;
+    justify-items: center;
+    align-items: center;
+    height: 80px;
+    border-bottom: 2px solid #f69d52;
+    width: 870px;
+}
+
+@media screen and (max-width: 900px) {
+    .stockmeister-stock-row {
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+        height: 80px;
+        border-bottom: 2px solid #f69d52;
+        width: 680px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .stockmeister-stock-row {
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+        height: 80px;
+        border-bottom: 2px solid #f69d52;
+        width: 300px;
+    }
+}
+
+.stockmeister-stock {
+    display: flex;
+    padding-right: 0;
+    padding-left: 0;
+    min-width: 300px;
+}
+
+.stockmeister-stock h1 {
+    font-size: 16px;
+    width: 300px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.stockmeister-stock-volume {
+    width: 100px;
+}
+
+.stockmeister-stock-symbol {
+    width: 150px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.stockmeister-stock-exchange {
+    text-align: center;
+    width: 150px;
+}
+
+.stockmeister-stock-currency {
+    text-align: center;
+    width: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .stockmeister-stock-currency {
+        display: none;
+    }
+}

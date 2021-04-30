@@ -1,0 +1,43 @@
+.stockmeister-details-back {
+    color: #ffffff;
+    font-size: 25px;
+    margin-right: 1px;
+}
+
+.stockmeister-details-back-container {
+    background-color: #980000;
+    padding-top: 4px;
+}
+
+.stockmeister-details-back-container:hover {
+    padding-top: 4px;
+    background-color: #cb0101;
+    transition: 0.2s all ease-in-out;
+}
+
+.stockmeister-details-text {
+    height: auto;
+    font-weight: bolder;
+    padding-top: 8px;
+    text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+    .stockmeister-details-text {
+        height: auto;
+        position: -ms-device-fixed;
+        font-weight: bolder;
+        padding-top: 8px;
+        padding-right: 105px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .stockmeister-details-text {
+        height: auto;
+        position: -ms-device-fixed;
+        font-weight: bolder;
+        padding-top: 8px;
+        padding-right: 190px;
+    }
+}
